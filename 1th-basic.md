@@ -2,6 +2,10 @@
 
 1、变量与赋值
 
+sh
+[set/unset] -option name=[value]
+
+bash
 [alias/declare/typeset/export/readonly/local] name=[value]
 
 前面的修饰符和value都可以不写，如果value不指定，那么变量初始化为空字符串。前面的修饰符：
